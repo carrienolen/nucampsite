@@ -5,7 +5,7 @@ import CampsiteCard from "./CampsiteCard";
 
 
 
-//the yellow () after .map and around the (campsite) + row + col + CampsiteCard helps to group these pieces together and be returned as a single expression in the CampsitesList component
+//the set of () after .map and around the ((campsite) + row + col + CampsiteCard) is there to group these elements together and be returned as a single expression in the CampsitesList component
 const CampsitesList= () => {
   return (
     <Row className="ms-auto">
