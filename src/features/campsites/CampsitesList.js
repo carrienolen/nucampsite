@@ -5,7 +5,7 @@ import CampsiteCard from "./CampsiteCard";
 
 
 
-//the set of () after .map and around the ((campsite) + row + col + CampsiteCard) is there to group these elements together and be returned as a single expression in the CampsitesList component
+//the set of () after .map are because .map is a function.  The () are around the parameter to the function. The parameter to the function is the (campsite) => {  return ....};  // it's doing this:  { CAMPSITES.map (callbackFunction) } where callbackFunction takes in a campsite and returns some JSX of a Col and CampsiteCard. 
 const CampsitesList= () => {
   return (
     <Row className="ms-auto">
